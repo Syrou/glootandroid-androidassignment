@@ -4,8 +4,8 @@ Ett arbetsprov för G-Loot skrivet i Kotlin för Android platformen
 # Teknikval
 
 ## RxJava2
-	För att kunna enkelt och snyggt hantera trådar och asynkrona operationer på ett
-	funktionellt sätt används rxjava2
+	För att enkelt och snyggt kunna hantera trådar och asynkrona operationer på ett
+	funktionellt sätt, används rxjava2
 
 ## ReKotlin
 	Statehantering är ett enkelt sätt att se till att samma typ av värden sätts på ett ställe.
@@ -16,14 +16,14 @@ Ett arbetsprov för G-Loot skrivet i Kotlin för Android platformen
 	Som bonus finns även automatisk loggningsföljd med i och med hur man använder actions.
 	Ett litet middleware kommer ta hand och visa i loggningsfönstret hur användaren rör sig i appen
 ## Retrofit2
-	Retrofit2 är erkännt och beprövat i många skarpa projekt, dessutom så tillåter det
+	Retrofit2 är erkänt och beprövat i många skarpa projekt, dessutom så tillåter det
 	att man kopplar ihop dess anrop med RxJava2 och på så sätt kan se till att hela stacken
-	används RxJava2 hela vägen ut.
+	använder RxJava2 hela vägen ut.
 ## Moshi
-	För att kunna serialisera och deserialisera json enkelt används Moshi som är en av de snabbare
-	mapparna som finns till json och java
+	För att kunna serialisera och deserialisera JSON enkelt används Moshi som är en av de snabbare
+	mapparna som finns till JSON och java
 ## Lottie
-	För det lilla extra, so används lottie för att hantera animering och få snygga
+	För det lilla extra, så används lottie för att hantera animering och få snygga
 	animationer från deras http://lottiefiles.com
 
 # Uppbyggnad
