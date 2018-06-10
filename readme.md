@@ -31,7 +31,7 @@ Ett arbetsprov för G-Loot skrivet i Kotlin för Android platformen
 > 	Är endast till för att vara en tunn app, där man kan skriva över
 > temafärger, eller speciella texter. Detta är 	alltså ett brandinglager
 > för att underlätta byggen och leveranser, medför även att byggtiden
-> förminskas 	när man bara vill testas tema/lokaliserings uppdatering
+> förminskas 	när man bara vill testa tema/lokaliserings uppdatering
 
 * Core
 
