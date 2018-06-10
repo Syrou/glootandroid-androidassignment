@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">core</string>
+    <string name="player_name">Spelare: %1$s</string>
+    <string name="hint_playername">Spelarens namn</string>
+    <string name="add">Lägg till</string>
+    <string name="update">Uppdatera</string>
+    <string name="cancel">Avbryt</string>
+    <string name="player_has_been_added">Spelaren %1$s har lagts till</string>
+    <string name="player_has_been_updated">Spelaren %1$s har uppdaterats</string>
+    <string name="player_has_been_removed">Spelaren %1$s har tagits bort</string>
+    <string name="player_id_format">ID på spelare: %1$s</string>
+    <string name="player_name_format">Namn på spelare: %1$s</string>
+    <string name="could_not_load_players_from_api">Kunde inte ladda spelare från API\n(Tryck valen för att försöka igen)</string>
+    <string name="loading_text">Laddar...</string>
+    <string name="failure_remove_player" type="id">Kunde inte ta bort spelare, försök igen</string>
+    <string name="failure_update_player" type="id">Kunde inte uppdatera spelare, försök igen</string>
+    <string name="no_players_found">Inga spelare hittades</string>
+</resources>

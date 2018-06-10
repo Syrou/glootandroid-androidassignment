@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:lottie="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/loading_error_view"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:background="@drawable/white_oval"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loading_error_animation"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:clickable="true"
+            android:layout_centerHorizontal="true"
+            lottie:lottie_rawRes="@raw/empty"
+            lottie:lottie_loop="true"
+            lottie:lottie_autoPlay="true" />
+        <TextView
+            android:layout_below="@+id/loading_error_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/could_not_load_players_from_api"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-50dp"
+            android:layout_marginBottom="50dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/loading_view"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:background="@drawable/white_oval"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loading_animation"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            lottie:lottie_rawRes="@raw/simple"
+            lottie:lottie_loop="true"
+            lottie:lottie_autoPlay="true" />
+
+        <TextView
+            android:layout_below="@+id/loading_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/loading_text" />
+    </RelativeLayout>
+
+</RelativeLayout>
