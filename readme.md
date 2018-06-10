@@ -24,7 +24,7 @@ Ett arbetsprov för G-Loot skrivet i Kotlin för Android platformen
 	mapparna som finns till json och java
 ## Lottie
 	För det lilla extra, so används lottie för att hantera animering och få snygga
-	animation från deras http://lottiefiles.com
+	animationer från deras http://lottiefiles.com
 
 # Uppbyggnad
 * App
