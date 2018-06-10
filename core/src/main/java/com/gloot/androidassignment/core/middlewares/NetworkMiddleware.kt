@@ -5,6 +5,7 @@ import android.content.Context
 import android.support.design.widget.FloatingActionButton
 import android.support.design.widget.Snackbar
 import android.widget.Toast
+import com.gloot.androidassignment.core.CoreApplication
 import com.gloot.androidassignment.core.R
 import com.gloot.androidassignment.core.actions.PlayerActions
 import com.gloot.androidassignment.core.states.CoreState
@@ -120,7 +121,8 @@ private fun removePlayer(player:Player, context: Context, dispatch: DispatchFunc
                     { players:List<Player> ->
                         (context as Activity).finish()
                         dispatch(PlayerActions.InitializePlayerList(players))
-                    },
+                        val localizedError = context.getString(R.string.player_has_been_removed, removedPlayer?.name)
+                        Toast.makeText(CoreApplication.instance,localizedError, Toast.LENGTH_LONG).show()                    },
                     {onError ->
                         val localizedError = context.getString(R.string.failure_remove_player)
                         Toast.makeText(context,localizedError, Toast.LENGTH_SHORT ).show() })

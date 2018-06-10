@@ -15,5 +15,11 @@ val store = Store(
 class CoreApplication: Application(){
     override fun onCreate() {
         super.onCreate()
+        instance = this
+    }
+
+    companion object {
+        @get:Synchronized lateinit var instance: CoreApplication
+            private set
     }
 }
