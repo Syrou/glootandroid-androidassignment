@@ -43,4 +43,4 @@ Ett arbetsprov för G-Loot skrivet i Kotlin för Android platformen
 > skrivas direkt för modulen.
 
 # Skapat av
-Joakim Forslund 2018 @ me.syrou.eu
+Joakim Forslund 2018 - me@syrou.eu
